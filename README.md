@@ -9,7 +9,7 @@ The primary objectives include data preprocessing, feature engineering, and perf
 
 ## Workflow : 
 
-### Initializing Spark Session:  
+### 1. Initializing Spark Session:  
 Initializes a Spark session to work with Spark DataFrames and perform large-scale data processing.
 
 ### 2. Define Schemas:
