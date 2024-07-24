@@ -15,25 +15,25 @@ Initializes a Spark session to work with Spark DataFrames and perform large-scal
 ### 2. Define Schemas:
 - Defines schemas for different datasets including ball-by-ball data, match data, player data, player match data, and team data.
 - This ensures structured data processing with predefined data types for each column.
-- 
+  
 ### 3. Data Preparation and Feature Engineering:
 - Filters valid deliveries (excluding wides and no balls).
 - Aggregates runs to calculate total and average runs per match and inning.
 - Computes cumulative runs for each over within each match.
 - Flags high-impact deliveries (either a wicket or more than 6 runs).
-- 
+  
 ### 4. Feature Engineering for Match Data Analysis:
 - Extracts temporal features (year, month, day) from match dates.
 - Categorizes win margins into 'High' or 'Low'.
 - Calculates total wins per team and season.
 - Determines team performance based on batting/bowling order and toss outcomes.
-- 
+  
 ### 5. Data Exploration and Analysis:
 Using Various SQL queries and DataFrame operations  to derive insights, such as:  
 - Most frequent venues.
 - Distribution of match outcomes.
 - Top-performing teams, players, and overall statistics.
-- 
+  
 ### 6. Data Visualization:
 Several visualizations are created using Matplotlib and Seaborn to present the analyzed data:  
 - a. Team Performance by Season:
