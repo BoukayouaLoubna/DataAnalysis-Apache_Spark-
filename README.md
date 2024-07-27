@@ -7,6 +7,9 @@ The primary objectives include data preprocessing, feature engineering, and perf
 
 ## Archetecture:  
 
+![image](https://github.com/user-attachments/assets/ea76963e-7056-4a36-bff7-527dcf090503)
+
+
 ## Workflow : 
 
 ### 1. Initializing Spark Session:  
